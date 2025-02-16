@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import "./Hero.css";
 import hand_icon from "../Assets/hand_icon.png";
 import arrow_icon from "../Assets/arrow.png";
-import hero_image from "https://lenosh-b10-bucket.s3.us-east-1.amazonaws.com/hero_image.png";
 import { ShopContext } from "../../Context/ShopContext";
 import { Link } from "react-router-dom";
 
@@ -28,7 +27,7 @@ const Hero = () => {
         </Link>
       </div>
       <div className="hero-right">
-        <img src={hero_image} alt="" />
+        <img src="https://lenosh-b10-bucket.s3.us-east-1.amazonaws.com/hero_image.png" alt="" />
       </div>
     </div>
   );
