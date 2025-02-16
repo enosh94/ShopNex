@@ -18,7 +18,7 @@ const Hero = () => {
             <img src={hand_icon} alt="" />
           </div>
           <p className={"ph_" + theme}>Collections</p>
-          <p className={"ph_" + theme}>For Everyone</p>
+          <p className={"ph_" + theme}>From Lakshan Enosh</p>
         </div>
         <Link className="link" to={"/collections"}>
           <div className="hero-latest-btn">
